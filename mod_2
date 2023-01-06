@@ -1,4 +1,4 @@
-import streamlit as st
+
 from transformers import pipeline
 # Создаем модель для определения комментариев 
 classifier = pipeline(model="SkolkovoInstitute/russian_toxicity_classifier")
