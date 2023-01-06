@@ -19,4 +19,5 @@ def root():
 @app.post("/recognition/")
 def recognition(item: Item):
     return str(nlp(item.text))
+Footer
 
